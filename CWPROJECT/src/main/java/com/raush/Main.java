@@ -162,12 +162,26 @@ public class Main {
 	}
 
 	 static void PrintBusUI(Scanner sc) {
-		// TODO Auto-generated method stub
+ Interface b=new ServiceImplementation();
+         
+      b.Print();
+        
+       
+		 
+		 
 		
 	}
 
 	static void DeleteUI(Scanner sc) {
-		// TODO Auto-generated method stub
+		 System.out.println("Enter id");
+		 int id=sc.nextInt();
+		 
+		 
+         Interface b=new ServiceImplementation();
+         
+         b.Delete(id);
+		 
+		 
 		
 	}
 
