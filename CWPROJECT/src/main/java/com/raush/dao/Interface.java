@@ -1,5 +1,7 @@
 package com.raush.dao;
 
+import java.util.List;
+
 import bus.dto.Addbus;
 import usersignup.dto.UserSignup;
 
@@ -13,5 +15,9 @@ public void addbus(Addbus bus);
 
 
 void Updatebus(int id, String busname, String busnumber, String st, String dt, double f, int sa);
+
+public void Delete(int id);
+
+public void Print();
   
 }
