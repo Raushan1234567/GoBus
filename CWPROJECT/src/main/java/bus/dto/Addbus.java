@@ -16,7 +16,7 @@ public class Addbus {
 	private int seataviable;
 	public Addbus() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	public Addbus(String busname, String busNo, String fromstart, String todest, double fare, int seataviable) {
 		super();
